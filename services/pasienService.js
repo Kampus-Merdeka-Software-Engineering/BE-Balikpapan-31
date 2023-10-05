@@ -16,11 +16,14 @@ async function createPasien(pasien) {
   try {
     const mappedPasien = {
       data: {
-        nama: pasien.nama,
+        pasien_name: pasien.pasien_name,
+        gender: pasien.gender,
+        age: pasien.age,
+        phone_number: pasien.phone_number,
         email: pasien.email,
-        no_hp: pasien.no_hp,
-        nama_dokter: pasien.nama_dokter,
-        pesan: pasien.pesan,
+        service: pasien.service,
+        doctor_name: pasien.doctor_name,
+        complaint: pasien.complaint,
       }
     };
 
