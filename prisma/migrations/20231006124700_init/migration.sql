@@ -21,6 +21,7 @@ CREATE TABLE `Doctor` (
     `specialist` VARCHAR(191) NOT NULL,
     `license` VARCHAR(191) NOT NULL,
     `university` VARCHAR(191) NOT NULL,
+    `image` VARCHAR(191) NOT NULL,
     `created_at` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
 
     PRIMARY KEY (`doctor_id`)

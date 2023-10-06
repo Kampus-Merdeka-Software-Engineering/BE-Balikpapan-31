@@ -20,6 +20,7 @@ async function createDoctor(doctor) {
         specialist: doctor.specialist,
         license: doctor.license,
         university: doctor.university,
+        image: doctor.image,
       }
     };
 
