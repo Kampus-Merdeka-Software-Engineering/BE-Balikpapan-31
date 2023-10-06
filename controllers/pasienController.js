@@ -12,7 +12,8 @@ async function createPasien(req, res) {
   const createdPasien = await pasienService.createPasien(pasien);
 
   res.status(201).json({
-    message: 'pasien created'
+    message: 'pasien created',
+    data: createdPasien
   });
 }
 

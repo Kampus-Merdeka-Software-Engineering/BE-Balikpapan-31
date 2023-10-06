@@ -16,7 +16,7 @@ async function createDoctor(doctor) {
   try {
     const mappedDoctor = {
       data: {
-        doctor_name: doctor.name,
+        doctor_name: doctor.doctor_name,
         specialist: doctor.specialist,
         license: doctor.license,
         university: doctor.university,

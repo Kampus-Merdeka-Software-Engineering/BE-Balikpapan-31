@@ -26,5 +26,6 @@ model Doctor {
   specialist  String
   license     String
   university  String
+  image       String
   created_at   DateTime @default(now())
 }

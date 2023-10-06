@@ -12,7 +12,8 @@ async function createDoctor(req, res) {
   const createdDoctor = await doctorService.createDoctor(doctor);
 
   res.status(201).json({
-    message: 'doctor created'
+    message: 'doctor created',
+    data: createdDoctor
   });
 }
 
